@@ -1,0 +1,41 @@
+body {
+	background-color: lemonchiffon;
+	color: deeppink;
+}
+
+img {
+	display: inline-block;
+	border-radius: 50px;
+   margin: 0 40%;
+   width: 10%;
+   height: ;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+ ul {
+ 	list-style-type: none;
+      padding: 10px;
+      background: deeppink;
+      font-weight: bold;
+
+    }
+
+    .links {
+    	text-align: center;
+    	
+
+    }
+
+
+    li {
+    	display: inline;
+
+    }
+
+    a {
+    	color: lemonchiffon;
+    }
