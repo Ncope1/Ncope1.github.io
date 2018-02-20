@@ -1,60 +1,149 @@
 <!DOCTYPE html>
-<html lang=“en”>
+<html lang="en">
 <head>
-    <meta charset=“UTF-8">
-    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
-    <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
-    <title>Natalee Cope’s Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Natalee Cope</title>
     <!-- Compiled and minified CSS -->
-    <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css“> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
     <!--Import Google Icon Font-->
-    <link href=“https://fonts.googleapis.com/icon?family=Material+Icons” rel=“stylesheet”>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Main CSS -->
-    <link href=“style.css” rel=“stylesheet” type=“text/css” />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body> 
-    <div class=“nav-bar fixed”>
+    <div class="nav-bar fixed">
         <nav>
-            <div class=“nav-wrapper purple”>
-                <a href=“#” class=“brand-logo”>Natalee Cope</a>
-                <ul id=“nav-mobile” class=“right hide-on-med-and-down”>
-                    <li><a href=“#about”>About</a></li>
-                    <li><a href=“#projects”>Projects</a></li>
-                    <li><a href=“#skills”>Skills</a></li>
-                    <li><a href=“#contact”>Get Connected</a></li>
+            <div class="nav-wrapper purple">
+                <a href="#" class="brand-logo"></> Natalee Cope</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Get Connected</a></li>
                 </ul>
             </div>
         </nav>
     </div>
-    <h1 class=“center”>Natalee Cope</h1>
-    <h5 class=“center”>Web Developer</h5>
-    <section id=“about”>
-      <div class=“row”>
-        <h1 class=“center”>About Me</h1>
-        <p class=“center col s10 offset-s1”>“I'm a passionate, resourceful, curiosity-driven, outside-of-the-box thinker who finds creative and thoughtful ways of tackling each web development project. I always step up to the plate with a plan in-hand while also acknowledging the input of others, and playing to my strengths in any given situation.“</p>
+
+    <h1 class="center">Natalee Cope</h1>
+    <h3 class="center">Web Developer</h5>
+
+    <section id="about">
+      <div class="row">
+        <h1 class="center">About Me</h1>
+        <p class="center col s10 offset-s1">“I am a passionate Web Developer who never settles for less than what I set my mind to, regardless of any obstacles that I might face. I always step up to the plate with a plan while also acknowledging the input of others, and playing to my strengths in any given situation.”</p>
       </div>
           </section>
-    <div class=“carousel”>
-        <a class=“carousel-item beyonce” href=“#one!“></a>
-        <a class=“carousel-item fab-skin-care” href=“#two!“></a>
-        <a class=“carousel-item m8d” href=“#three!“></a>
-        <a class=“carousel-item” href=“#four!“></a>
-        <a class=“carousel-item” href=“#five!“></a>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card large">
+            <div class="card-image">
+                <img src="img/queen-bey-trivia.png">
+                <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+                <h5>Queen Bey Trivia</h5>
+                <p>This six (6) question trivia based game was created based on Pop Artist, Beyoncé and her personal/professional life. Once the user selects an answer based on the options provided, the game progresses to a new question along with a new set of answer options. For each correct answer that is selected a one point score is recorded.</p>
+                <!-- <p><img class="col s3 offset-s1" src="img/html-color-icon.png" /><img class="col s3" src="img/css-color-icon.png" /><img class="col s3" src="img/js-color-icon.png" /></p>
+                <p class="card-skills col s12">HTML CSS Javascript </p> -->
+            </div>
+            <div class="card-action">
+                <a href="#">Deployed Game</a>
+                <a href="#">Github Repo</a>
+            </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card large">
+                <div class="card-image">
+                    <img src="img/FabSkinCare.png">
+                    <span class="card-title"></span>
+                </div>
+                <div class="card-content">
+                    <h5>Fab Nightly Skincare Routine</h5>
+                    <p>For this project I decided to make a skin care routine app (facial skincare) to provide users with information on how to properly care for their skin on a daily basis. The app was created using NodeJS, Handlebars, Materialize, Mongoose, Express, and Heroku. Users are able to create new skin care routines, review the routines that have already been added to the app, update current routines and also delete outdated routines.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">Deployed Game</a>
+                    <a href="#">Github Repo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+                <div class="card large">
+                    <div class="card-image">
+                        <img src="img/M8D.png">
+                        <span class="card-title"></span>
+                    </div>
+                    <div class="card-content">
+                        <h5>The Misadventures of 808's &amp Dookie</h5>
+                        <p>This application is for music lovers that appreciate listening to an artist’s or band’s entire album and getting a full perspective for the audible impact the artist or band was going for. A music lover can then write a review of their thoughts on the album and post a picture of the album cover with their review. Other music lovers can read their review, decide whether or not to listen to the album, and leave comments on the review that they read. They can then post their own review of the album or create a review for a different album. Express, Mongoose, MongoDB, JSON, Heroku, mLab, React, Axios, node-spotify-api npm package, and Bootstrap were all used to complete this application. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Deployed Game</a>
+                        <a href="#">Github Repo</a>
+                    </div>
+                </div>
+            </div>
     </div>
+<!-- This is the card panel that I'm probably not going to use -->
+    <!-- <div class="row">
+            <div class="col s12 m4">
+              <div class="card-panel green lighten-2 center-align">
+                <span class="white-text">I built a Beyonce based trivia game. Users were asked multiple questions about Beyoncé Knowles and gained points based on how many questions they answered correctly.</span>
+                <div class="row">
+                    <div class="col s12">
+                    <br />
+                    <p class="icons"><img class="col s3 offset-s1" src="img/html-color-icon.png" HTML /><img class="col s3" src="img/css-color-icon.png" /><img class="col s3" src="img/js-color-icon.png" /></p>
+                <p class="card-skills col s12 white-text">HTML CSS Javascript</p>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="white-text">Deployed Game</a>
+                    <a href="#" class="white-text">Github Repo</a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
     <section>
-        <h1 id=“skills” class=“center”>Skills</h1>
-        <p>A list of skills will go here with pictures lined up</p>
+        <!-- <h1 id="skills" class="center">Skills</h1> -->
+        <marquee>
+            <img src="img/html-color-icon.png" alt="html" />
+            <img src="img/css-color-icon.png" alt="css" />
+            <img src="img/js-color-icon.png" alt="javascript" />
+            <img src="img/jquery-color-icon.png" alt="jquery" />
+            <img src="img/react-color-icon.png" alt="react" />
+            <img src="img/nodejs-color-icon.png" alt="nodejs" />
+            <img src="img/ruby-color-icon.png" alt="ruby" />
+            <img src="img/rails-color-icon.png" alt="rails" />
+            <img src="img/python-color-icon.png" alt="python" />
+            <img src="img/mongodb-color-icon.png" alt="mongodb" />
+            <img src="img/sql-icon.png" alt="sql" />
+            <img src="img/postgresql-color-icon.png" alt="postgresql" />
+            <img src="img/heroku-color-icon.png" alt="heroku" />
+            <img src="img/materialize-color-icon.png" alt="materialize" />
+            <img src="img/bootstrap-color-icon.png" alt="bootstrap" />
+            <img src="img/mlab-color-icon.png" alt="mlab" />
+            <img src="img/git-color-icon.png" alt="git" />
+        </marquee>
     </section>
+
     <section>
-        <h1 id=“contact” class=“center”>Get Connected</h1>
-        <p>Feel free to reach out to me via email! You can also checkout my</p> <a href=“github.com/nataleec1”>github</a></github> to see what cool things I’m working on!</p>
+        <h1 id="contact" class="center">Get Connected</h1>
+        <p>Feel free to reach out to me via email!</p> 
+        <p>Checkout my <a href="github.com/ncope1">github</a></github> to see the cool things I've worked on lately!</p>
     </section>
+
+
   <!--jQuery-->
-<script src=“http://code.jquery.com/jquery-3.3.1.min.js” integrity=“sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=” crossorigin=“anonymous”></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <!-- Compiled and minified JavaScript -->
-<script src=“https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js”></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <!-- Main JavaScript file-->
-<script src=“script.js”></script>
+<script src="js/script.js"></script>
 </body>
 </html>
-
