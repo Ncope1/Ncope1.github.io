@@ -1,0 +1,29 @@
+.name {
+    font-size: 100px;
+}
+.title {
+    font-size: 72px;
+}
+.welcome {
+    height: 100vh;
+    padding-top: 20vh;
+    margin-top: 10vh;
+    background-image: url('../img/PortfolioBackground.jpg');
+    background-size: 100% 70%;
+    /* background-size:  */
+    background-repeat: no-repeat;
+}
+.title {
+    background: purple;
+}
+#about {
+    height: 50vh;
+}
+.brand-logo {
+    margin-left: 10px;
+}
+/* .welcome-container {
+    border-radius: 40px;
+    width: 85vw;
+    height: 85vh;
+} */
