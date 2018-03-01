@@ -14,10 +14,10 @@
     background-repeat: no-repeat;
 }
 .title {
-    background: purple;
+    background: #e040fb;
 }
 #about {
-    height: 50vh;
+    height: 100vh;
 }
 .brand-logo {
     margin-left: 10px;
