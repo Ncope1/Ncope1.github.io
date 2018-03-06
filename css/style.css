@@ -1,29 +1,153 @@
 .name {
     font-size: 100px;
 }
-.title {
-    font-size: 72px;
-}
 .welcome {
     height: 100vh;
-    padding-top: 20vh;
-    margin-top: 10vh;
-    background-image: url('../img/PortfolioBackground.jpg');
-    background-size: 100% 70%;
-    /* background-size:  */
+    padding-top: 33vh;
+    /* margin-top: 10vh; */
+    background-image: url('../img/PortfolioFinal1.png');
+    background-size: 100%;
     background-repeat: no-repeat;
 }
+.m8d-card-title {
+    padding-top: 3vh;
+}
+
+/* add purple background to headers */
 .title {
     background: #e040fb;
+    font-size: 72px;
+}
+.about-title {
+    background: #e040fb; 
+}
+.project-title {
+    background: #e040fb; 
+}
+.skills-title {
+    background: #e040fb; 
+}
+.connected-title {
+    background: #e040fb; 
+}
+/* padding between sections */
+.projects {
+    padding-bottom: 10vh;
+}
+.skills-icons {
+    padding-bottom: 10vh;
+}
+.contact-icons {
+    padding-bottom: 8vh;
 }
 #about {
-    height: 100vh;
+    height: 50vh;
+}
+#about p {
+    font-size: 18px;
 }
 .brand-logo {
     margin-left: 10px;
 }
-/* .welcome-container {
-    border-radius: 40px;
-    width: 85vw;
-    height: 85vh;
-} */
+.html-icon {
+    display: inline-block;
+}
+.html-title {
+    position: relative;
+}
+.css-icon {
+    display: inline-block;
+}
+.css-title {
+    position: relative;
+}
+.js-icon {
+    display: inline-block;
+}
+.js-title {
+    position: relative;
+}
+.jquery-icon {
+    display: inline-block;
+}
+.jquery-title {
+    position: relative;
+}
+.react-icon {
+    display: inline-block;
+}
+.react-title {
+    position: relative;
+}
+.nodejs-icon {
+    display: inline-block;
+}
+.nodejs-title {
+    position: relative;
+}
+.ruby-icon {
+    display: inline-block;
+}
+.ruby-title {
+    position: relative;
+}
+.rails-icon {
+    display: inline-block;
+}
+.rails-title {
+    position: relative;
+}
+.python-icon {
+    display: inline-block;
+}
+.python-title {
+    position: relative;
+}
+.mongodb-icon {
+    display: inline-block;
+}
+.mongodb-title {
+    position: relative;
+}
+.sql-icon {
+    display: inline-block;
+}
+.sql-title {
+    position: relative;
+}
+.postgresql-icon {
+    display: inline-block;
+}
+.postgresql-title {
+    position: relative;
+}
+.heroku-icon {
+    display: inline-block;
+}
+.heroku-title {
+    position: relative;
+}
+.materialize-icon {
+    display: inline-block;
+}
+.materialize-title {
+    position: relative;
+}
+.bootstrap-icon {
+    display: inline-block;
+}
+.bootstrap-title {
+    position: relative;
+}
+.mlab-icon {
+    display: inline-block;
+}
+.mlab-title {
+    position: relative;
+}
+.git-icon {
+    display: inline-block;
+}
+.git-title {
+    position: relative;
+}
