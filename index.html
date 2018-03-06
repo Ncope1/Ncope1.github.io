@@ -13,10 +13,10 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body> 
-    <div class="nav-bar fixed">
+    <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper purple accent-2">
-                <a href="#" class="brand-logo"> &ltNatalee Cope /&gt </a>
+                <a href="#" class="brand-logo"> &ltNatalee Cope /&gt</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
@@ -28,77 +28,81 @@
     </div>
 
     <section class="welcome">
-        <!-- <h1 class="center name">Natalee Cope</h1> -->
-        <h2 class="center title white-text">&ltFull-Stack Web Developer /&gt</h2>
-        <!-- <div class="center">
-            <a class="waves-effect waves-light btn purple col s6 m2 offset-m4" href="http://github.com/ncope1">GITHUB</a>
-            <a class="waves-effect waves-light btn purple col s6 m2" href="http://linkedin.com/in/natalee-c">LinkedIn</a>
-        </div> -->
+        <div class="row">
+            <h2 class="center col s12 title white-text">&ltFull-Stack Web Developer /&gt</h2>
+        </div>
     </section>
 
     <section id="about">
       <div class="row">
-        <h2 class="center">&ltAbout Me /&gt</h2>
-        <p class="center col s10 offset-s1">I am a passionate Web Developer who never settles for less than what I set my mind to, regardless of any obstacles that I might face.  I always step up to the plate with a plan while also acknowledging the input of others, and playing to my strengths in any given situation.</p>
-        <p class="center col s10 offset-s1">A native New Yorker with a West Indian background, I'm heavily influenced by all things beauty and fashion related.  </p>
-
-        
+        <h2 class="center about-title white-text">&ltAbout Me /&gt</h2>
+        <p class="center col s10 offset-s1">I am a passionate Web Developer who never settles for less than what I set my mind to, regardless of any obstacles that I might face. I always step up to the plate with a plan while also acknowledging the input of others, and playing to my strengths in any given situation.</p>
+            
+        <p class="center col s10 offset-s1">A native New Yorker with a West Indian background, I'm heavily influenced by all things beauty and fashion related. </p>
       </div>
     </section>
 
-    <section id="projects"class="projects">
-        <h2 class="center">&ltProjects /&gt</h2>
+    <section id="projects" class="projects">
+        <h2 class="center project-title white-text">&ltProjects /&gt</h2>
         <div class="row">
-            <div class="col s12 m4">
-                <div class="card large">
-                <div class="card-image">
-                    <img src="img/queen-bey-trivia.png">
-                    <span class="card-title"></span>
-                </div>
-                <div class="card-content">
-                    <h5>Queen Bey Trivia</h5>
-                    <p>I built a Beyonce based trivia game. Where players gain points based on how many questions they answer correctly.<!--<img class="col s3 offset-s1" src="img/html-color-icon.png" /><img class="col s3" src="img/css-color-icon.png" /><img class="col s3" src="img/js-color-icon.png" />--></p>
-                    <!-- <p><img class="col s3 offset-s1" src="img/html-color-icon.png" /><img class="col s3" src="img/css-color-icon.png" /><img class="col s3" src="img/js-color-icon.png" /></p>
-                    <p class="card-skills col s12">HTML CSS Javascript </p> -->
-                </div>
-                <div class="card-action">
-                    <a href="#">Deployed Game</a>
-                    <a href="#">Github Repo</a>
-                </div>
-                </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card large">
-                    <div class="card-image">
-                        <img src="img/FabSkinCare.png">
-                        <span class="card-title"></span>
-                    </div>
-                    <div class="card-content">
-                        <h5>Fab Nightly Skincare Routine</h5>
-                        <p>I built a skincare app that gives users tips on what night time routines can help perserve their beautiful skin.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">Deployed App</a>
-                        <a href="#">Github Repo</a>
+                <div class="col s12 m5 offset-m1 queen-bey-card">
+                        <div class="card large">
+                            <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/queen-bey-trivia.png">
+                            </div>
+                            <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 center">Queen Bey Trivia<i class="material-icons right">more_vert</i></span>
+                            <div class="card-action">
+                                <a href="https://ncope1.github.io/Project-1/" target="_blank">Deployed App</a>
+                                <a href="https://github.com/Ncope1/Project-1" target="_blank">Github Repo</a>
+                            </div>
+                            <!-- <p><a href="#" target="_blank">Deployed Site |</a><a href="#" target="_blank"> Repo</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Queen Bey Trivia<i class="material-icons right">close</i></span>
+                            <p>Trivia game based on Queen Bey</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m4">
-                <div class="card large">
-                    <div class="card-image">
-                        <img src="img/M8D.png">
-                        <span class="card-title"></span>
-                    </div>
-                    <div class="card-content">
-                        <h5>The Misadventures of 808's &amp Dookie</h5>
-                        <p>This application was created as a group project, and geared toward music lovers who appreciate listening to an artist's or band's entire album to gain a full perspective of the audible impact the artist or band was aiming for. They can then post their own review of the album or create a review for a different album. The technologies used are: Express, Mongoose, MongoDB, JSON, Heroku, mLab, React, Axios, node-spotify-api npm package, and Bootstrap. Spotify's API was used as well as a Random Name Generator for JavaScript (c) by Thomas Konings.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="http://ncope1.github.io/m8d">Deployed App</a>
-                        <a href="#">Github Repo</a>
+                <div class="col s12 m5 m8d">
+                        <div class="card large">
+                            <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/M8D.png">
+                            </div>
+                            <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 center m8d-card-title">The Misadventures of 808's &amp Dookie<i class="material-icons right">more_vert</i></span>
+                            <div class="card-action">
+                                <a href="https://ncope1.github.io/m8d">Deployed App</a>
+                                <a href="https://github.com/Ncope1/m8d">Frontend Repo</a>
+                                <a href="https://github.com/Ncope1/project_3_server_final">Backend Repo</a>
+                            </div>
+                            <!-- <p><a href="#" target="_blank">Deployed Site |</a><a href="#" target="_blank"> Repo</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">The Misadventures of 808's &amp Dookie<i class="material-icons right">close</i></span>
+                            <p>This application was created as a group project, and geared toward music lovers who appreciate listening to an artist's or band's entire album to gain a full perspective of the audible impact the artist or band was aiming for. They can then post their own review of the album or create a review for a different album. <br /><br />The technologies used are: Express, Mongoose, MongoDB, JSON, Heroku, mLab, React, Axios, node-spotify-api npm package, and Bootstrap. Spotify's API was used as well as a Random Name Generator for JavaScript &copy by Thomas Konings.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col s12 m5 offset-m4 fab-skin-care">
+                        <div class="card large">
+                            <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/FabSkinCare.png">
+                            </div>
+                            <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 center">Fab Nightly Skincare Routine<i class="material-icons right">more_vert</i></span>
+                            <div class="card-action">
+                                <a href="https://project-2-nc.herokuapp.com/">Deployed App</a>
+                                <a href="https://github.com/Ncope1/Project-2">Github Repo</a>
+                            </div>
+                            <!-- <p><a href="#" target="_blank">Deployed Site |</a><a href="#" target="_blank"> Repo</a></p> -->
+                            </div>
+                            <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Fab Skin Care<i class="material-icons right">close</i></span>
+                            <p>Skincare app</p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 <!-- This is the card panel that I'm probably not going to use -->
@@ -123,39 +127,40 @@
 
     <section>
         <h1 id="skills" class="center"></h1>
-        <h2 class="center">&ltThings I Know /&gt</h2>
-        <p class="center">
-            <img src="img/html-color-icon.png" alt="html" />
-            <img src="img/css-color-icon.png" alt="css" />
-            <img src="img/js-color-icon.png" alt="javascript" />
-            <img src="img/jquery-color-icon.png" alt="jquery" />
-            <img src="img/react-color-icon.png" alt="react" />
-            <img src="img/nodejs-color-icon.png" alt="nodejs" />
-            <img src="img/ruby-color-icon.png" alt="ruby" />
-            <img src="img/rails-color-icon.png" alt="rails" />
-            <img src="img/python-color-icon.png" alt="python" />
-            <img src="img/mongodb-color-icon.png" alt="mongodb" />
-            <img src="img/sql-icon.png" alt="sql" />
-            <img src="img/postgresql-color-icon.png" alt="postgresql" />
-            <img src="img/heroku-color-icon.png" alt="heroku" />
-            <img src="img/materialize-color-icon.png" alt="materialize" />
-            <img src="img/bootstrap-color-icon.png" alt="bootstrap" />
-            <img src="img/mlab-color-icon.png" alt="mlab" />
-            <img src="img/git-color-icon.png" alt="git" />
-        </p>
+        <h2 class="center skills-title white-text">&ltThings I Know /&gt</h2>
+        <marquee onmouseover="this.stop()" onmouseout="this.start()"><div class="center skills-icons">
+            <div class="html-icon"><img src="img/html-color-icon.png" alt="html" /><p class="html-title">HTML</p></div>
+            <div class="css-icon"><img src="img/css-color-icon.png" alt="css" /><p class="css-title">CSS</p></div>
+            <div class="js-icon"><img src="img/js-color-icon.png" alt="javascript" /><p class="js-title">Javascript</p></div>
+            <div class="jquery-icon"><img src="img/jquery-color-icon.png" alt="jquery" /><p class="jquery-title">jQuery</p></div>
+            <div class="react-icon"><img src="img/react-color-icon.png" alt="react" /><p class="react-title">React</p></div>
+            <div class="nodejs-icon"><img src="img/nodejs-color-icon.png" alt="nodejs" /><p class="nodejs-title">Nodejs</p></div>
+            <div class="ruby-icon"><img src="img/ruby-color-icon.png" alt="ruby" /><p class="ruby-title">Ruby</p></div>
+            <div class="rails-icon"><img src="img/rails-color-icon.png" alt="rails" /><p class="rails-title">Rails</p></div>
+            <div class="python-icon"><img src="img/python-color-icon.png" alt="python" /><p class="python-title">Python</p></div>
+            <div class="mongodb-icon"><img src="img/mongodb-color-icon.png" alt="mongodb" /><p class="mongodb-title">Mongo DB</p></div>
+            <div class="sql-icon"><img src="img/sql-icon.png" alt="sql" /><p class="sql-title">SQL</p></div>
+            <div class="postgresql-icon"><img src="img/postgresql-color-icon.png" alt="postgresql" /><p class="postgresql-title">Postgresql</p></div>
+            <div class="heroku-icon"><img src="img/heroku-color-icon.png" alt="heroku" /><p class="heroku-title">Heroku</p></div>
+            <div class="materialize-icon"><img src="img/materialize-color-icon.png" alt="materialize" /><p class="materialize-title">Materialize</p></div>
+            <div class="bootstrap-icon"><img src="img/bootstrap-color-icon.png" alt="bootstrap" /><p class="bootstrap-title">Bootstrap</p></div>
+            <div class="mlab-icon"><img src="img/mlab-color-icon.png" alt="mlab" /><p class="mlab-title">mLab</p></div>
+            <div class="git-icon"><img src="img/git-color-icon.png" alt="git" /><p class="git-title">Git</p></div>
+            </div></marquee>
     </section>
-
     <div id="pdf">
         <div class="row">
-            <embed class="col s10 offset-s1" src="img/NataleeCopeResume.pdf#zoom=100&scrollbar=0" height="600px" />
+            <embed class="col s10 offset-s1" src="img/NataleeCopeResume.pdf#zoom=120&scrollbar=0" height="600px" />
         </div>
     </div>
 
     <section class="center">
-        <h1 id="contact" class="center">&ltGet Connected /&gt</h1>
-        <a href="#" class="center"><img class="email center" src="img/email-color-icon.png" alt="email" /></a>
-        <a href="http://github.com/ncope1" class="center"><img class="github center" src="img/github-color-icon.png" alt="github" /></a>
-        <a href="http://linkedin.com/in/natalee-c" class="center"><img class="linkedin center" src="img/linkedin-color-icon.png" alt="linkedin" /></a>
+        <h1 id="contact" class="center connected-title white-text">&ltGet Connected /&gt</h1>
+        <div class="contact-icons">
+            <a href="mailto:copenatalee@me.com" class="center"><img class="email center" src="img/email-color-icon.png" alt="email" /></a>
+            <a href="http://github.com/ncope1" class="center" target="_blank"><img class="github center" src="img/github-color-icon.png" alt="github" /></a>
+            <a href="http://linkedin.com/in/natalee-c" class="center" target="_blank"><img class="linkedin center" src="img/linkedin-color-icon.png" alt="linkedin" /></a>
+        </div>
     </section>
 
 
