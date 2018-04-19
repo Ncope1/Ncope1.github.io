@@ -1,3 +1,28 @@
+@media (max-width: 622px) {
+    a.brand-logo {
+        font-size: 23px;
+    }
+    h2.title {
+        font-size: 42px;
+        margin-top: -20vh;
+    }
+    h2.about-title {
+        margin-top: -60vh;
+    }
+    .project-title {
+        height: 10vh;
+        margin-top: 60vh;
+    }
+    .skills-title {
+        font-size: 42px;
+    }
+    .connected-title {
+        font-size: 42px;
+    }
+}
+/* .brand-logo {
+    font-size: 14px;
+} */
 .name {
     font-size: 100px;
 }
